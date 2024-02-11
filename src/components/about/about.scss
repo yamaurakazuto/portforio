@@ -1,0 +1,40 @@
+
+
+.about-title h1{
+    font-size: 50px;
+    color:gray;
+    text-align: center;
+
+}
+    
+
+
+.imgcontainer{
+    width: 300px;
+    height: auto;
+    border-top-left-radius: 50%;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 0%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.about-text{
+    text-align: center;
+}
+
+.about-text h2{
+    font-size: 50px;
+    color:black;
+    padding-bottom: 10px;
+}
+
+.about-text p{
+    font-size: 30px;
+}
+
