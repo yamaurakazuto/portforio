@@ -9,18 +9,27 @@
     }
 
 .contents h1{
+    margin-top: 20px;
     padding-top: 15px;
-    font-style: 50px;
+    font-size: 50px;
+    color:gray;
     text-align: center;
 }
 
 .contents-item{
     float: left;
     margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
 
     img{
         width: 300px;
         height: 300px;
+        padding-top: 20px;
+
     }
 }
 

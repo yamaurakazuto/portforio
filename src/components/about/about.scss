@@ -2,7 +2,7 @@
 
 .about-title h1{
     font-size: 50px;
-    padding-top: 25px;
+    padding-top: 15px;
     color:gray;
     text-align: center;
 
@@ -28,11 +28,13 @@
 
 .about-text{
     text-align: center;
+    max-width: 550px;
+    margin: auto;
 }
 
 .about-text h2{
-    padding-top: 35px;
-    font-size: 50px;
+    padding-top: 20px;
+    font-size: 30px;
     color:black;
     padding-bottom: 10px;
 }
