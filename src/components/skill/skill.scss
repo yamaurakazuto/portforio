@@ -1,3 +1,30 @@
 .skill{
-    background-color: aqua;
+    background-color: white;
+    
+}
+
+.contents{
+    align-items: center;
+    justify-content: center;
+    }
+
+.contents h1{
+    padding-top: 15px;
+    font-style: 50px;
+    text-align: center;
+}
+
+.contents-item{
+    float: left;
+    margin-right: 40px;
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.contents-item p{
+    font-size: 42px;
+    margin-top: 40px;
 }
