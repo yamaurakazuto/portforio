@@ -3,7 +3,31 @@ import './contact.scss'
 export default function Contact() {
   return (
     <div className='contact' id ='contact'>
-      zzss
+      <div className="form">
+      <h1 className='title'>お問い合わせ</h1>
+      <form>
+        <div className="item">
+          <p class="label">名前</p>
+          <input type="text" />
+          </div>
+          <div className="item">
+          <p class="label">メールアドレス</p>
+          <input type="text" />
+          </div>
+          <div className="item">
+          <p class="label">内容</p>
+          <textarea class="inputs" ></textarea>
+          </div>
+          <div className="btn">
+          <button  type="submit">送信</button>
+          </div>
+          
+          
+      </form>
+      </div>
+      
     </div>
   )
 }
+
+    

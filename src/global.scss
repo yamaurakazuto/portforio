@@ -1,2 +1,9 @@
 $maincolor:rgb(152, 203, 203);
-$subcolor:gray;
+
+$width: 768px;
+
+@mixin mpbile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
