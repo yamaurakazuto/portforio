@@ -7,16 +7,16 @@ export default function Contact() {
       <h1 className='title'>お問い合わせ</h1>
       <form>
         <div className="item">
-          <p class="label">名前</p>
+          <p className="label">名前</p>
           <input type="text" />
           </div>
           <div className="item">
-          <p class="label">メールアドレス</p>
+          <p className="label">メールアドレス</p>
           <input type="text" />
           </div>
           <div className="item">
-          <p class="label">内容</p>
-          <textarea class="inputs" ></textarea>
+          <p className="label">内容</p>
+          <textarea className="inputs" ></textarea>
           </div>
           <div className="btn">
           <button  type="submit">送信</button>
