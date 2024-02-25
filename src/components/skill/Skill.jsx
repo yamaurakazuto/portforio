@@ -26,7 +26,7 @@ export default function Skill() {
       </div>
 
       <div className="contents-item">
-        <img src={React} alt=''/>
+        <img src={React} alt='' />
         <p>React</p>
       </div>
       

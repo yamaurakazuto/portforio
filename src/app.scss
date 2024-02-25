@@ -17,6 +17,17 @@
             height: calc(100vh - 70px);
             scroll-snap-align: start;
         }
+        @media screen and (max-width: 940px) {
+            .filters{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+            }
+            
+        }
 
     }
+
+    
 }

@@ -98,4 +98,20 @@
    
 }
 
+@media screen and(max-width:321px){
+  .filter{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
 
+@media screen and(max-width:768px){
+  .filter{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
