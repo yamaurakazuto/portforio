@@ -12,7 +12,7 @@
     
 
 
-.imgcontainer{
+.img-container{
     margin: auto;
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@
     margin: auto;
 }
 
-.about-text h2{
+ h2{
     padding-top: 20px;
     font-size: 30px;
     color:black;
@@ -48,10 +48,10 @@
 
 }
 
-@media screen and(max-width:321px){
+@media screen and (max-width: 321px){
     .about-text{
         
-        .title{
+        h2{
             font-size: 10px;
 
             p{
@@ -72,11 +72,12 @@
     }
 
 
-@media screen and(max-width:768px){
+@media screen and (max-width: 720px){
     .filter{
       display: flex;
       align-content: center;
       justify-content: center;
       gap: 10px;
     }
+
 }
